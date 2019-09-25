@@ -32,7 +32,7 @@ $ ./regexery.sh 'example\sto\sdo'
 /[Ee][Xx][Aa][Mm][Pp][Ll][Ee]\s[Tt][Oo]\s[Dd][Oo]/
 
 $ ./regexery.sh 'backslashes\\are\\cool'
-/[Bb][Aa][Cc][Kk][Ss][Ll][Aa][Ss][Hh][Ee][Ss][\][Rr][Ee][\][Oo][Oo][Ll]/
+/[Bb][Aa][Cc][Kk][Ss][Ll][Aa][Ss][Hh][Ee][Ss][\][Aa][Rr][Ee][\][Cc][Oo][Oo][Ll]/
 
 $ ./regexery.sh 'i need more space'
 /[Ii].[Nn][Ee][Ee][Dd].[Mm][Oo][Rr][Ee].[Ss][Pp][Aa][Cc][Ee]/
