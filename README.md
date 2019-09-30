@@ -1,5 +1,5 @@
 # regexery.sh
-A simple tool to simplify the making of a regex query
+A script made to simplify the creation of a regex query.
 
 # Quick explanation
 The tool takes a string as input via command line parameter, it expects only one parameter for the time.
