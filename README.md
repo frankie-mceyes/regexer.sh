@@ -39,6 +39,9 @@ $ ./regexery.sh 'i need more space'
 
 $ ./regexery.sh 'this\"is"ok'
 /[Tt][Hh][Ii][Ss]\"[Ii][Ss]["][Oo][Kk]/
+
+$ echo "Hello Pipes!" | ./regexery.sh
+/[Hh][Ee][Ll][Ll][Oo].[Pp][Ii][Pp][Ee][Ss][!]/
 ```
 
 # TODO
@@ -49,3 +52,4 @@ You say it. For what i need at work, i did everything that was necessary.
 - [x] Double backslashes
 - [x] Not repeating numbers
 - [x] Tested with native UNIX and UNIX on Windows
+- [x] Added PIPE support
