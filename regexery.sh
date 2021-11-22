@@ -1,6 +1,14 @@
 #!/bin/bash
 
-word="$1"
+if [ -p /dev/stdin ]
+then
+        while IFS= read args
+        do
+                word=$args
+        done
+else
+        word="$1"
+fi
 
 echo -n '/'
 for (( i=0; i<${#word}; i++ ))
